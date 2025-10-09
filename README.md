@@ -41,6 +41,11 @@ dorado demux \
 - Dorado: [https://github.com/nanoporetech/dorado](https://github.com/nanoporetech/dorado)
 
 ### Alignment and Filtering with minimap2 
+Before aligning reads with minimap2, you need to create an index (`.mmi`) from the reference genome FASTA file.  
+```bash
+/path/to/minimap2 -d /path/to/reference_genome.mmi /path/to/reference_genome.fa
+```
+- Genome Reference: https://hgdownload.soe.ucsc.edu/goldenpath/hg38/bigZips/p13/
 
 ```bash
 # Convert BAM to FASTQ
