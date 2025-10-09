@@ -24,7 +24,7 @@ the variability observed among the samples.
   --kit-name \
   --no-trim \
   --reference /path/to/reference/genome.fa \
-  /path/to/input_fast5_directory \
+  /path/to/input_pod5_directory \
   | samtools view -b -o /path/to/output/output_pass.bam
 
 
