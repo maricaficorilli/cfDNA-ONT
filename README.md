@@ -21,6 +21,7 @@ the variability observed among the samples.
   --modified-bases 5mCG_5hmCG \
   --emit-moves \
   --device cuda:all \
+  --kit-name \
   --no-trim \
   --reference /path/to/reference/genome.fa \
   /path/to/input_fast5_directory \
