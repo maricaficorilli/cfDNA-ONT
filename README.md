@@ -47,7 +47,7 @@ dorado demux \
 samtools fastq -@ 4 -O -n /path/to/input.bam | gzip > /path/to/output.fastq.gz
 
 # Align FASTQ to reference genome with minimap2 and filter reads
-/path/to/minimap2 -ax map-ont --MD -L /path/to/reference_genome.mmi /path/to/output.fastq.gz \
+/path/to/minimap2 -ax map-ont --MD -L /path/to/hg38.p13.mmi /path/to/output.fastq.gz \
   | samtools view -h -q 20 -F 0x4 -F 0x100 -F 0x800 \
   | awk '( $9 < 700 || $1 ~ /^@/ )' \
   | samtools view -bS -o /path/to/output.filtered.bam
