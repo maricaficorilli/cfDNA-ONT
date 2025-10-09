@@ -127,6 +127,8 @@ python3 /path/to/motif_analysis.py \
   --chromosomes /path/to/chr_list.txt \
   --sample SAMPLE_NAME
 ```
+To reduce complexity and identify recurring patterns among samples, Non-negative Matrix Factorization (NMF) was applied to the matrix of motif frequencies. This approach allowed the extraction of three main profiles, each characterized by a specific set of dominant motifs, representing underlying patterns that explain the variability observed among the samples.
+
 ### Reference
 - https://github.com/methylgrammarlab/Fragmentomics_GenomBiol
 - Katsman, E., Orlanski, S., Martignano, F. et al. Detecting cell-of-origin and cancer-specific methylation features of cell-free DNA from Nanopore sequencing. Genome Biol 23, 158 (2022). https://doi.org/10.1186/s13059-022-02710-1
