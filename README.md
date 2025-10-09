@@ -60,7 +60,17 @@ samtools fastq -@ 4 -O -n /path/to/input.bam | gzip > /path/to/output.fastq.gz
 
 ### Reference
 - minimap2: https://github.com/lh3/minimap2
-- Heng Li, Minimap2: pairwise alignment for nucleotide sequences, Bioinformatics, Volume 34, Issue 18, September 2018, Pages 3094–3100, https://doi.org/10.1093/bioinformatics/bty191  
+- Heng Li, Minimap2: pairwise alignment for nucleotide sequences, Bioinformatics, Volume 34, Issue 18, September 2018, Pages 3094–3100, https://doi.org/10.1093/bioinformatics/bty191
+
+### Sorting and Indexing BAM Files
+
+```bash
+# Sort the filtered BAM file
+samtools sort -@ 8 -o /path/to/output.sorted.bam /path/to/input.filtered.bam
+
+# Index the sorted BAM file
+samtools index /path/to/output.sorted.bam
+```   
 
 
 
