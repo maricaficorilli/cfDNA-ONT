@@ -112,7 +112,7 @@ Rscript /path/to/ichorCNA/scripts/runIchorCNA.R \
 - ichorCNA: https://github.com/broadinstitute/ichorCNA
 - Adalsteinsson, V.A., Ha, G., Freeman, S.S. et al. Scalable whole-exome sequencing of cell-free DNA reveals high concordance with metastatic tumors. Nat Commun 8, 1324 (2017). https://doi.org/10.1038/s41467-017-00965-y
 
-## Motif Analysis
+## 🧬 Motif Analysis
 
 For the analysis of 4-mer end motifs, a custom Python script was used: [motif_analysis.py](scripts/motif_analysis.py)
 This script extracts end-motifs from Nanopore BAM files, generates frequency plots, pie charts of base composition, and outputs the top 20 motifs with counts and frequencies, along with a log file of filtering statistics.
