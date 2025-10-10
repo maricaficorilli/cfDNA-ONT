@@ -133,6 +133,11 @@ To reduce complexity and identify recurring patterns among samples, Non-negative
 ### Reference
 - https://github.com/methylgrammarlab/Fragmentomics_GenomBiol
 - Katsman, E., Orlanski, S., Martignano, F. et al. Detecting cell-of-origin and cancer-specific methylation features of cell-free DNA from Nanopore sequencing. Genome Biol 23, 158 (2022). https://doi.org/10.1186/s13059-022-02710-1
+
+### 📧 Contacts
+If you have any questions or feedback, please contact us at:
+Email: marica.ficorilli@istitutotumori.mi.it   
+  
  
 
 
