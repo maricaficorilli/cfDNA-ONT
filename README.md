@@ -136,7 +136,7 @@ To reduce complexity and identify recurring patterns among samples, Non-negative
 
 ### 📧 Contacts
 If you have any questions or feedback, please contact us at:
-Email: marica.ficorilli@istitutotumori.mi.it   
+- e-mail: marica.ficorilli@istitutotumori.mi.it   
   
  
 
