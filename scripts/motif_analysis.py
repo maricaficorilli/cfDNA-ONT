@@ -14,12 +14,15 @@ print("generate a top20 barplot, a pie chart of base composition,")
 print("save the top20 motifs with counts and frequencies, and create a log file.\n")
 
 # === INPUT ===
-bam_file = "/media/marica/Elements/nivactor/QA15.filtered.bam"
-ref_fasta = "/media/marica/Elements/nivactor/reference/GCF_000001405.39_GRCh38.p13_genomic.fna"
-chr_list_file = "/media/marica/Elements/nivactor/reference/chr_list.txt"
-sample_name = "QA15"
-min_mapq = 20
-max_read_length = 700  # replicate reference filtering
+# File paths (customizable)
+bam_file = "path/to/sample.bam"        # Path to the BAM file
+ref_fasta = "path/to/reference.fasta"  # Path to the reference FASTA
+chr_list_file = "path/to/chr_list.txt" # Chromosome list file
+
+# Analysis parameters
+sample_name = "sample1"    # Sample name
+min_mapq = 20              # Minimum mapping quality
+max_read_length = 700      # Maximum read length
 
 # === LOAD CHROMOSOME LIST ===
 with open(chr_list_file) as f:
