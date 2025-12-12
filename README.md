@@ -1,17 +1,13 @@
-<table>
-  <tr>
-    <td valign="middle">
-      <img src="logo/FLARE.jpeg" alt="FLARE Logo" width="220" />
-    </td>
-    <td valign="middle">
-      <h1 style="margin:0; line-height:1.15;">
-        Fragmenting the Future with FLARE:<br>
-        A Comprehensive Fragmentomics Pipeline<br>
-        Based on Long-read Nanopore Sequencing
-      </h1>
-    </td>
-  </tr>
-</table>
+<div style="display:flex; align-items:center; justify-content:space-between; width:100%;">
+
+  <h1 style="margin:0; line-height:1.2;">
+    Fragmenting the Future with FLARE:<br>
+    A Comprehensive Fragmentomics Pipeline<br>
+    Based on Long-read Nanopore Sequencing
+  </h1>
+
+  <img src="logo/FLARE.jpeg" alt="FLARE Logo" style="width:200px; height:auto; margin-left:20px;">
+</div>
 
 <hr>
 
