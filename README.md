@@ -1,5 +1,5 @@
 <p align="right">
-  <img src="logo/FLARE.jpeg" alt="Logo" width="100"/>
+  <img src="./logo/FLARE.jpeg" alt="Logo" width="120"/>
 </p>
 
 # Fragmenting the Future with FLARE: A Comprehensive Fragmentomics Pipeline Based on Long-read Nanopore Sequencing 
