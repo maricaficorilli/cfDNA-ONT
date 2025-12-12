@@ -28,6 +28,7 @@ Matrix Factorization (NMF) was applied to the matrix of motif frequencies. This
 approach allowed the extraction of three main profiles, each characterized by a 
 specific set of dominant motifs, representing underlying patterns that explain 
 the variability observed among the samples.
+</p>
 
 ## Basecalling and Demultiplexing
 
