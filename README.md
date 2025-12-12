@@ -1,13 +1,10 @@
-<table style="width:100%; border-collapse: collapse;">
+<table>
   <tr>
-    <!-- LOGO A SINISTRA -->
-    <td style="width:250px; vertical-align: middle;">
-      <img src="./logo/FLARE.jpeg" alt="FLARE Logo" style="width:230px; height:auto;">
+    <td valign="middle">
+      <img src="logo/FLARE.jpeg" alt="FLARE Logo" width="220" />
     </td>
-    
-    <!-- TITOLO A DESTRA -->
-    <td style="vertical-align: middle; text-align: left;">
-      <h1 style="margin:0; line-height:1.2;">
+    <td valign="middle">
+      <h1 style="margin:0; line-height:1.15;">
         Fragmenting the Future with FLARE:<br>
         A Comprehensive Fragmentomics Pipeline<br>
         Based on Long-read Nanopore Sequencing
