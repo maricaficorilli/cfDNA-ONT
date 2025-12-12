@@ -1,7 +1,16 @@
-<h1>
-  <img src="./logo/FLARE.jpeg" alt="Logo" width="150" style="vertical-align: middle; margin-right: 20px;"/>
-  Fragmenting the Future with FLARE: A Comprehensive Fragmentomics Pipeline Based on Long-read Nanopore Sequencing 
-</h1>
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+
+  <div style="flex: 1; min-width: 300px;">
+    <h1>
+      Fragmenting the Future with FLARE:<br>
+      A Comprehensive Fragmentomics Pipeline<br>
+      Based on Long-read Nanopore Sequencing
+    </h1>
+  </div>
+
+  <div style="flex-shrink: 0; margin-left: 20px;">
+    <img src="./logo/FLARE.jpeg" alt="FLARE Logo" width="150"/>
+  </div>
 
 After sequencing, the raw signal data were used for basecalling with the Dorado 
 basecaller, and the resulting reads were aligned to the human reference genome 
