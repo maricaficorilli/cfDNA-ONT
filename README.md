@@ -18,7 +18,6 @@
 
 <hr>
 
-
 After sequencing, the raw signal data were used for basecalling with the Dorado 
 basecaller, and the resulting reads were aligned to the human reference genome 
 (hg38) using minimap2. Tumor fraction and copy number variations (CNVs) were 
