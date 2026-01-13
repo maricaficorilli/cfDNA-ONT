@@ -139,7 +139,15 @@ To reduce complexity and identify recurring patterns among samples, Non-negative
 - NMF-package: https://github.com/renozao/NMF
 
 ## Tumor Fraction estimation with cfTools
-This repository contains a custom Python pipeline to estimate the tumor-derived fraction of cfDNA from Nanopore sequencing data. The workflow extracts per-read methylation signals from Dorado-generated BAM files, summarizes methylation levels over cancer-specific marker regions, and prepares marker-level data for probabilistic deconvolution using the cfTools framework. The markers/ directory includes the marker panel and related scripts used for methylation-based tumor fraction estimation.
+To estimate the tumor-derived fraction of cfDNA from Nanopore sequencing data. The workflow extracts per-read methylation signals from Dorado-generated BAM files, summarizes methylation levels over cancer-specific marker regions, and prepares marker-level data for probabilistic deconvolution using the cfTools framework. The markers/ directory includes the marker panel and related scripts used for methylation-based tumor fraction estimation.
+
+```bash
+## Usage
+
+Run the pipeline on a Nanopore BAM file to estimate tumor and normal cfDNA fractions:
+python CancerDetector_for_nanopore.py <bam_file> [markers_file] [CancerDetector_path] [--verbose]
+```
+
 
 ### 📧 Contacts
 If you have any questions or feedback, please contact us at:
