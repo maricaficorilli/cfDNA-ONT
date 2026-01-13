@@ -141,15 +141,16 @@ To reduce complexity and identify recurring patterns among samples, Non-negative
 ## Tumor Fraction estimation with cfTools
 To estimate the tumor-derived fraction of cfDNA from Nanopore sequencing data. The workflow extracts per-read methylation signals from Dorado-generated BAM files, summarizes methylation levels over cancer-specific marker regions, and prepares marker-level data for probabilistic deconvolution using the cfTools framework. The markers/ directory includes the marker panel and related scripts used for methylation-based tumor fraction estimation.
 
+
+**Usage example:**
 ```bash
-## Usage
-
-#Run the pipeline on a Nanopore BAM file to estimate tumor and normal cfDNA fractions.
-
-#Example:
 python scripts/CancerDetector_for_nanopore.py <bam_file> markers/markers_panel.bed --verbose
 
 ```
+
+### Reference
+- https://bioconductor.org/packages/3.22/bioc/html/cfTools.html
+- Hu R, Stackpole ML, Li S, Zhou XJ, Li W (2025). cfTools: Informatics Tools for Cell-Free DNA Study. doi:10.18129/B9.bioc.cfTools, R package version 1.10.0, https://bioconductor.org/packages/cfTools. 
 
 
 ### 📧 Contacts
