@@ -138,6 +138,9 @@ To reduce complexity and identify recurring patterns among samples, Non-negative
 - Katsman, E., Orlanski, S., Martignano, F. et al. Detecting cell-of-origin and cancer-specific methylation features of cell-free DNA from Nanopore sequencing. Genome Biol 23, 158 (2022). https://doi.org/10.1186/s13059-022-02710-1
 - NMF-package: https://github.com/renozao/NMF
 
+## Tumor Fraction estimation with cfTools
+This repository contains a custom Python pipeline to estimate the tumor-derived fraction of cfDNA from Nanopore sequencing data. The workflow extracts per-read methylation signals from Dorado-generated BAM files, summarizes methylation levels over cancer-specific marker regions, and prepares marker-level data for probabilistic deconvolution using the cfTools framework. The markers/ directory includes the marker panel and related scripts used for methylation-based tumor fraction estimation.
+
 ### 📧 Contacts
 If you have any questions or feedback, please contact us at:
 - e-mail: marica.ficorilli@istitutotumori.mi.it   
