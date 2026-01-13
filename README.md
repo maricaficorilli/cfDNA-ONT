@@ -144,8 +144,13 @@ To estimate the tumor-derived fraction of cfDNA from Nanopore sequencing data. T
 ```bash
 ## Usage
 
-Run the pipeline on a Nanopore BAM file to estimate tumor and normal cfDNA fractions:
-python CancerDetector_for_nanopore.py <bam_file> [markers_file] [CancerDetector_path] [--verbose]
+Run the pipeline on a Nanopore BAM file to estimate tumor and normal cfDNA fractions.
+
+Example:
+
+```bash
+python scripts/CancerDetector_for_nanopore.py <bam_file> markers/markers_panel.bed --verbose
+
 ```
 
 
